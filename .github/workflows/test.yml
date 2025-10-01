@@ -1,0 +1,15 @@
+name: hi
+
+on:
+  push: 
+    branches: 
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Zephyr
+        uses: PTPhongKMF/test-action@main
+        with:
+          name: phong
