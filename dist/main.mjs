@@ -16974,9 +16974,12 @@ var require_core = /* @__PURE__ */ __commonJS({ "node_modules/.deno/@actions+cor
 var import_core = /* @__PURE__ */ __toESM(require_core());
 function main() {
 	try {
-		const name = import_core.getInput("name", { required: true });
+		try {
+			import_core.getInput("name", { required: true });
+		} catch {
+			throw new Error("this is custom");
+		}
 		import_core.info(`We are special because we were born into this world.`);
-		import_core.info(`Don't you agree, ${name}?`);
 		import_core.info("=======================================================");
 		import_core.notice("Zephyr Release run successfully!");
 	} catch (error$1) {
