@@ -16980,7 +16980,7 @@ function main() {
 		import_core.info("=======================================================");
 		import_core.notice("Zephyr Release run successfully!");
 	} catch (error$1) {
-		import_core.setFailed("❌ An unexpected error occurred: " + error$1);
+		import_core.setFailed("❌ An unexpected error occurred:\n" + (error$1 instanceof Error ? `name: "${error$1.name}" and msg: "${error$1.message}"` : error$1));
 	}
 }
 main();
