@@ -9,7 +9,7 @@ function main() {
     core.info("=======================================================");
     core.notice("Zephyr Release run successfully!");
   } catch (error) {
-    core.setFailed("An unexpected error occurred:\n" + error);
+    core.setFailed("❌ An unexpected error occurred: " + error);
   }
 }
 
