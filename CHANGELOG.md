@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/PTPhongKMF/test-action/compare/v1.1.0...v1.1.1) (2025-10-02)
+
+
+### Bug Fixes
+
+* will it remove branch? ([6d42d4f](https://github.com/PTPhongKMF/test-action/commit/6d42d4f53a910f23a73237b5ebb4a10653a12cdb))
+
 ## [1.1.0](https://github.com/PTPhongKMF/test-action/compare/v1.0.0...v1.1.0) (2025-10-02)
 
 
