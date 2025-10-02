@@ -1,11 +1,8 @@
 {
-  "release-type": "rust",
-
-  "bootstrap-sha": "e5f9899f637f7260080be581b98647d65ddad698",
+  "release-type": "simple",
 
   "packages": {
     ".": {
-      "component": "Test-prelease"
     }
   },
 
@@ -13,17 +10,8 @@
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": true,
 
-  "pull-request-header": ":robot: I have created a release *beep* *boop*. Also, this was changed in config!!!!!",
-  "pull-request-footer": "This PR was generated with Release Please and changed in config!!",
-
-  "draft": true,
-
-  "changelog-sections": [
-    { "type": "feat", "section": "✨ New Features hehe", "hidden": false },
-    { "type": "fix", "section": "🐛 Bug Fixes hehe", "hidden": false }
-  ],
-
-  "signoff": "sign of by me <me@gmail.com>",
+  "include-v-in-tag": true,
+  "include-component-in-tag": false,
 
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
 }
