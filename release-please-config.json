@@ -9,7 +9,7 @@
     }
   },
 
-  "initial-version": "0.1.0",
+  "initial-version": "1.0.0",
   "bump-minor-pre-major": true,
   "bump-patch-for-minor-pre-major": true,
 
@@ -19,8 +19,8 @@
   "draft": true,
 
   "changelog-sections": [
-    {"type": "feat", "section": "✨ New Features hehe", "hidden": false},
-    {"type": "fix", "section": "🐛 Bug Fixes hehe", "hidden": false}
+    { "type": "feat", "section": "✨ New Features hehe", "hidden": false },
+    { "type": "fix", "section": "🐛 Bug Fixes hehe", "hidden": false }
   ],
 
   "signoff": "sign of by me <me@gmail.com>",
