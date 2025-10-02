@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/PTPhongKMF/test-action/compare/v1.0.0...v1.1.0) (2025-10-02)
+
+
+### Features
+
+* next v ([7673ed5](https://github.com/PTPhongKMF/test-action/commit/7673ed5f8a59a5229401bcb49ecbdfb69f7feed1))
+
 ## 1.0.0 (2025-10-02)
 
 
